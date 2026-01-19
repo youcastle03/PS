@@ -17,6 +17,7 @@ public class Main {
 				x[i] = Math.min(x[i], x[i/3]+1);
 			}
 		}
+        
 		System.out.println(x[n]);
 		sc.close();
 	}
